@@ -16,7 +16,9 @@ public class OrderService {
     public OrderService() {
 
         this.orderList = new ArrayList<>();
-        Order order1 = new Order(1, 100, "Bill");
+        Order order1 = new Order(1, 1000, "Bill");
+
+
         Meal meal = new Meal("hambugger", 100, "This is delicious");
 
         this.mealList = new ArrayList<>();
